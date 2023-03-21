@@ -2,9 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:gravity="top"
     android:orientation="vertical"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".Payment">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="35dp"
@@ -18,6 +20,7 @@
 
 
         <ImageView
+            android:id="@+id/navigatePayment"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/left_icon" />
@@ -457,8 +460,9 @@
 
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="240dp"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
                 android:orientation="vertical">
 
                 <TextView
@@ -484,12 +488,12 @@
 
             <TextView
                 android:layout_width="125dp"
-                android:layout_height="wrap_content"
+                android:layout_height="56dp"
                 android:layout_gravity="center"
                 android:background="#ee4d2d"
                 android:gravity="center"
                 android:padding="12dp"
-
+                android:id="@+id/btnPayment"
                 android:text="Mua hàng (10)"
                 android:textColor="@color/white"
                 android:textSize="15dp"

@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="top">
+    android:gravity="top"
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -91,7 +93,7 @@
                 android:gravity="center">
 
                 <CheckBox
-                    android:id="@+id/checkbox1"
+
                     android:layout_width="32dp"
                     android:layout_height="wrap_content" />
                 />
@@ -217,7 +219,7 @@
                 android:gravity="center">
 
                 <CheckBox
-                    android:id="@+id/checkbox1"
+
                     android:layout_width="32dp"
                     android:layout_height="wrap_content" />
                 />
@@ -343,7 +345,7 @@
                 android:gravity="center">
 
                 <CheckBox
-                    android:id="@+id/checkbox1"
+
                     android:layout_width="32dp"
                     android:layout_height="wrap_content" />
                 />
@@ -469,7 +471,7 @@
                 android:gravity="center">
 
                 <CheckBox
-                    android:id="@+id/checkbox1"
+
                     android:layout_width="32dp"
                     android:layout_height="wrap_content" />
                 />
@@ -595,7 +597,7 @@
                 android:gravity="center">
 
                 <CheckBox
-                    android:id="@+id/checkbox1"
+
                     android:layout_width="32dp"
                     android:layout_height="wrap_content" />
                 />
@@ -808,7 +810,7 @@
                 android:background="#ee4d2d"
                 android:gravity="center"
                 android:padding="12dp"
-
+                android:id="@+id/btnBuyCart"
                 android:text="Mua hàng (10)"
                 android:textColor="@color/white"
                 android:textSize="15dp"
