@@ -1,4 +1,4 @@
-package com.example.shoppeeandroid;
+package com.example.shoppeeandroid.Screens;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+
+import com.example.shoppeeandroid.R;
+
 
 public class Payment extends AppCompatActivity {
     private TextView payment;
@@ -31,6 +35,8 @@ public class Payment extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 System.out.println("Thanh toán thành công!");
+
+
             }
         });
     }
@@ -38,7 +44,7 @@ public class Payment extends AppCompatActivity {
         navigate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Payment.this, MainActivity.class);
+                Intent intent = new Intent(Payment.this, Cart.class);
                 startActivity(intent);
             }
         });

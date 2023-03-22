@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:gravity="center">
+
+        <CheckBox
+
+            android:layout_width="32dp"
+            android:layout_height="wrap_content" />
+        />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+
+            android:src="@drawable/cart_product" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/baseline_storefront_24"
+                    app:tint="#5C5C5C" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="3dp"
+                    android:fontFamily="@font/shopee1"
+                    android:text="Trần Nhật Duy"
+                    android:id="@+id/seller"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/baseline_chevron_right_24"
+                    app:tint="#5C5C5C" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="19dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/shopee6"
+                    android:id="@+id/product"
+                    android:text="Tee basic ss1 CREWZ áo thun tay lỡ unisex Local Brand -Lamo Store(V427)" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/shape_outline"
+                android:fontFamily="@font/shopee6"
+                android:padding="3dp"
+                android:text="Miễn phí 7 ngày đổi trả hàng"
+                android:textColor="#F80000"
+                android:textSize="11dp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:src="@drawable/freeship" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/shopee3"
+                android:text="399.000đ"
+                android:id="@+id/price"
+                android:textColor="#f57224"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:layout_width="79dp"
+                android:layout_height="32dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="18dp"
+                    android:background="@drawable/shape_outlinebtn"
+                    android:gravity="center"
+                    android:text="-" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:background="@drawable/shape_outlinebtn"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:id="@+id/quantity"
+                    android:text="1"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="18dp"
+                    android:background="@drawable/shape_outlinebtn"
+                    android:gravity="center"
+                    android:text="+" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
